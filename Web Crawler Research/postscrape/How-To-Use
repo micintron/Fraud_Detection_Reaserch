@@ -1,0 +1,63 @@
+Begin by opening up a new virtual enviroment and installing Scrapy
+pip install scrapy
+
+Next you can do a whole page scrape by opening and running
+posts_spider.py with the first parse method
+
+
+Next you can work in a shell script
+open in terminal and run
+scrapy shell https://blog.scrapinghub.com/
+
+
+next to target things like the title you can use these commands
+
+response.css('title')                : returns selector object
+response.css('title').get()          : returns actual element
+response.css('title::text').get()    : returns just the text
+
+response.css('h3::text').get()       : returns text of first h3
+response.css('h3::text')[1].get()    : returns the second h3
+response.css('h3::text').getall()    : return all the h3's
+
+response.css('.post-header').get()          : get the entire value of the post header
+response.css('.post-header a').get()        : get first link in post header
+response.css('.post-header a::text').get()  : get the text of the first link
+response.css('.post-header a::text')[1].get()  : get the text of the second link
+
+
+we can also use regular exprestions
+
+response.css('p::text').re(r'scraping')             : gives all instances of the word scraping
+response.css('p::text').re(r's\w+')                 : gives us every text word that starts with s
+response.css('p::text').re(r'(\w+) you (\w+)')      : gives us every set of words with you in the middle of it
+
+we can also use x path selectors
+
+: gives us all the h3's
+response.xpath('//h3')
+
+: get all the h3's just the text
+response.xpath('//h3/text()').extract()
+
+: you can also use a xpath link from page to target element
+response.xpath('//*[@id="hs_cos_wrapper_module_1523032069834331"]/div/div/div/div/div[1]/div[2]/div[2]/div/span[2]/a/text()').getall()
+
+
+here we can get target elements with the response commands
+post = response.css('div.post-item')[0]                      : get the first post selector
+title = post.css('.post-header h2 a::text')[0].get()         : get the first posts header
+date = post.css('.post-header a::text')[0].get()             : get the date
+author = post.css('.post-header a::text')[2].get()           : get the author
+
+
+we can slo loop through and get this data in the scrappy shell
+
+for post in response.css('div.post-item'):
+	title = post.css('.post-header h2 a::text')[0].get()
+	date = post.css('.post-header a::text')[1].get()
+	author = post.css('.post-header a::text')[2].get()
+	print(dict(title=title, date=date, author=author))
+
+
+you can see how to run it with python in the posts_spider.py file
