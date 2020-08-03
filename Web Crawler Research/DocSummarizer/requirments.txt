@@ -1,0 +1,6 @@
+numpy==1.17.0
+sklearn
+logging
+beautifulsoup4
+sumy
+
