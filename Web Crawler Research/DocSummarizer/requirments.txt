@@ -3,4 +3,4 @@ sklearn
 logging
 beautifulsoup4
 sumy
-
+wxPython
