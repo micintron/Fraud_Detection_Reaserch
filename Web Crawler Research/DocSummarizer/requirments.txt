@@ -4,3 +4,4 @@ logging
 beautifulsoup4
 sumy
 wxPython
+nltk
