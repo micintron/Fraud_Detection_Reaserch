@@ -78,13 +78,16 @@ while menu_choice != "4":
         logging.debug("Actual Category: ()".format(twenty_test.target_names[twenty_test.target[i]]))
 
     elif menu_choice == "2":
+        
         # Enter text to classify
         print("Enter text you wish to classify:")
         text_to_predict = input().strip()
 
         predicted = text_clf.predict([text_to_predict])  # text needs to be an array element
+        print('\n')
         print("Suggested Category:", twenty_test.target_names[predicted[0]])
-
+        
+        
         logging.debug("Entered Text: {}".format(text_to_predict))
         logging.debug("Suggested Category: {}".format(twenty_test.target_names[predicted[0]]))
 
@@ -101,5 +104,8 @@ while menu_choice != "4":
         predicted = text_clf.predict([article])  # article text needs to be an array element
         print("Suggested Category:", twenty_test.target_names[predicted[0]])
         logging.debug("Suggested Category: {}".format(twenty_test.target_names[predicted[0]]))
+        
+    else:
+         print("Menu choice invalid to exit press 4:")
 
     logging.debug("End of While Loop 1 Reached")

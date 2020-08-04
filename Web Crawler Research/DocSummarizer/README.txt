@@ -27,19 +27,31 @@ Next simply run the doc_summarizer.py with the command in terminal or using an I
 NOTE : if you are on mac you will have to run the command pythonw doc_summarizer.py - for wxpython to work. You can also just use the run_doc_summarizer.py script if you wish
 
 
-NOTE: the html parser is still under development it has errors currently -
 
-3 Html Parser using tkinter Beautiful Soup sums and nltk this tool is designed to park through html and find readable text it can parse it is still a work in progress and dose not always work. NOTE : test pages are in the test pages folder to work with if you get an error you may have to force quit the tkiniter UI.
+
+3 Html Parser using tkinter Beautiful Soup sums and nltk this tool is designed to sort through an html page and find the different html sections and parse them out. 
+
 
 How to use:
 first make sure you have all libraries installed in your condo environment or a virtual one you have set up 
 
-Than simply run it in your python IDE or the console. Once the ui opens up navigate to a saved html page to parse its text
+Next simply run the html_parsing_tests with the command in terminal or using an IDE
+NOTE : if you are on mac you will have to run the command pythonw doc_summarizer.py - for tkiniter to work. You can also just use the run_html_parsing_tests.py script if you wish
 
 
+4 Html Text Finder
+This code uses html2text and beautiful soup to pull all readable text from a page 
 
+How to use:
+first make sure you have all libraries installed in your condo environment or a virtual one you have set up 
 
+Next simply run the html_text_finder with the command in terminal
 
+python html_text_finder 
+
+Or from your python IDE of choice such as Spyder 
+
+From there follow the prompts to classify your own text or some of the example files or a target page 
 
 
 

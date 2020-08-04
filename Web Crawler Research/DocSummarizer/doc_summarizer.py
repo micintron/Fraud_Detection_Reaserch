@@ -1,6 +1,7 @@
 import sumy
 import numpy as np
 import wx
+import logging
 
 from sumy.parsers.html import HtmlParser
 from sumy.parsers.plaintext import PlaintextParser
@@ -12,7 +13,7 @@ from sumy.summarizers.lsa import LsaSummarizer
 from sumy.summarizers.sum_basic import SumBasicSummarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
-import logging
+
 
 # Set up logging config
 logging.basicConfig(filename='doc_summarizer_log.log', level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s')

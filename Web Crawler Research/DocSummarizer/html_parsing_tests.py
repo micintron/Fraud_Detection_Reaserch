@@ -128,10 +128,11 @@ def bs_Parcer():
 
 def htmlParcer():
     print("------------------------- html parcer --------------------------------------------")
-    html = open(filepath, "r").read()
+    html = open(filepath, "r").read()   
     parser = MyHTMLParser()
     webpage_content = parser.feed(html)
     print(webpage_content)
+    
     print("------------------------- end of html parcer ------------------------------\n\n\n")
 
 #sumyParcer()

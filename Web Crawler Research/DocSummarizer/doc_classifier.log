@@ -81,3 +81,55 @@ odwyer@sse.ie                                  from "Hens",  by Evelyn Conlon
 2020-08-03 09:03:11,812:DEBUG:Actual Category: ()
 2020-08-03 09:03:11,812:DEBUG:End of While Loop 1 Reached
 2020-08-03 09:03:11,812:DEBUG:While Loop 1 started...
+2020-08-03 15:55:36,787:DEBUG:TARGET NAMES: ['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'comp.windows.x', 'misc.forsale', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey', 'sci.crypt', 'sci.electronics', 'sci.med', 'sci.space', 'soc.religion.christian', 'talk.politics.guns', 'talk.politics.mideast', 'talk.politics.misc', 'talk.religion.misc']
+2020-08-03 15:55:39,366:DEBUG:Classifier Successfully trained.
+2020-08-03 15:55:40,968:DEBUG:Accuracy Score: 0.7738980350504514
+2020-08-03 15:55:40,968:DEBUG:While Loop 1 started...
+2020-08-03 15:56:04,584:DEBUG:Menu Choice 2 Selected...
+2020-08-03 15:58:16,292:DEBUG:Entered Text: (CNN)The national political landscape has clearly and significantly shifted in Joe Biden's favor since he emerged as the Democratic Party's presumptive nominee back in March just as the public health emergency was taking hold.
+
+Given the continuing widespread coronavirus pandemic, the persistent economic devastation millions of Americans are experiencing in its wake and President Donald Trump's inability to wrest control of the crisis in the minds of a majority of Americans, it is probably not all that surprising that his reelection chances have taken a substantial hit.
+Perhaps the more surprising development is that nothing Trump and his campaign team have tried over the last two months to turn those fortunes around seems to be working. And they have certainly tried.
+From launching a law-and-order message in the face of mostly peaceful protests for racial justice, to Trump shaking up the campaign by demoting his campaign manager, to a short-lived attempt at having the President portray himself as a leader in command of the Covid-19 response, the race for the White House has continued to move in Biden's direction.
+Build your own road to 270 electoral votes with CNN's interactive map.
+While the cliché is true that the three months from now until Election Day is an eternity in American politics and the race is almost certain to tighten, it is also true that Americans are just six weeks away from beginning to cast ballots and the defining characteristic of this presidential race thus far is Trump's failed leadership in managing the coronavirus pandemic and an inability to convince enough of the public that Biden is an unacceptable alternative.
+Whatever thin cushion existed for Trump's reelection prospects at the start of this election year has completely evaporated. The President's path to 270 electoral votes is as narrow as it has ever been. For his part, former Vice President Biden is shoring up some traditionally blue-leaning battleground states, expanding the 2020 battleground map into what has recently been more Republican leaning terrain, and opening up multiple pathways to victory.
+Based on public and private polling, where the campaigns are placing their strategic bets with millions of advertising dollars, where the candidates and their surrogates are spending time in person or virtually, conversations with Trump and Biden campaign advisers, Republican and Democratic political operatives, members of Congress, and political professionals involved with outside groups, our current Electoral College outlook reflects that substantial movement in Biden's direction.
+2020-08-03 15:58:16,292:DEBUG:Suggested Category: talk.politics.mideast
+2020-08-03 15:58:16,292:DEBUG:End of While Loop 1 Reached
+2020-08-03 15:58:16,292:DEBUG:While Loop 1 started...
+2020-08-03 16:07:51,441:DEBUG:TARGET NAMES: ['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'comp.windows.x', 'misc.forsale', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey', 'sci.crypt', 'sci.electronics', 'sci.med', 'sci.space', 'soc.religion.christian', 'talk.politics.guns', 'talk.politics.mideast', 'talk.politics.misc', 'talk.religion.misc']
+2020-08-03 16:07:54,029:DEBUG:Classifier Successfully trained.
+2020-08-03 16:07:55,708:DEBUG:Accuracy Score: 0.7738980350504514
+2020-08-03 16:07:55,708:DEBUG:While Loop 1 started...
+2020-08-03 16:08:04,264:DEBUG:Menu Choice 2 Selected...
+2020-08-03 16:09:05,872:DEBUG:Entered Text: this girl she got dat butt for sure but like i don't know man like what them boys gonna do for me. and this cat he thinks hes fresh well i got news for you HES NOT FRESH and you can take that to the bank.
+2020-08-03 16:09:05,873:DEBUG:Suggested Category: soc.religion.christian
+2020-08-03 16:09:05,873:DEBUG:End of While Loop 1 Reached
+2020-08-03 16:09:05,873:DEBUG:While Loop 1 started...
+2020-08-03 16:12:40,809:DEBUG:TARGET NAMES: ['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'comp.windows.x', 'misc.forsale', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey', 'sci.crypt', 'sci.electronics', 'sci.med', 'sci.space', 'soc.religion.christian', 'talk.politics.guns', 'talk.politics.mideast', 'talk.politics.misc', 'talk.religion.misc']
+2020-08-03 16:12:43,345:DEBUG:Classifier Successfully trained.
+2020-08-03 16:12:45,022:DEBUG:Accuracy Score: 0.7738980350504514
+2020-08-03 16:12:45,022:DEBUG:While Loop 1 started...
+2020-08-03 16:12:53,225:DEBUG:Menu Choice 3 Selected...
+2020-08-03 16:12:57,420:DEBUG:Entered URL: https://www.cnn.com/2020/08/03/politics/2020-election-map/index.html
+2020-08-03 16:12:57,426:DEBUG:Starting new HTTPS connection (1): www.cnn.com:443
+2020-08-03 16:12:58,239:DEBUG:https://www.cnn.com:443 "GET /2020/08/03/politics/2020-election-map/index.html HTTP/1.1" 200 185260
+2020-08-03 16:12:58,656:DEBUG:Text parsed from URL:
+
+By David Chalian, CNN Political Director 
+
+Updated 2:39 PM ET, Mon August 3, 2020 
+Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.
+ (CNN)The national political landscape has clearly and significantly shifted in Joe Biden's favor since he emerged as the Democratic Party's presumptive nominee back in March just as the public health emergency was taking hold. 
+
+2020-08-03 16:12:58,661:DEBUG:Suggested Category: talk.politics.guns
+2020-08-03 16:12:58,661:DEBUG:End of While Loop 1 Reached
+2020-08-03 16:12:58,661:DEBUG:While Loop 1 started...
+2020-08-03 16:21:51,358:DEBUG:TARGET NAMES: ['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'comp.windows.x', 'misc.forsale', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey', 'sci.crypt', 'sci.electronics', 'sci.med', 'sci.space', 'soc.religion.christian', 'talk.politics.guns', 'talk.politics.mideast', 'talk.politics.misc', 'talk.religion.misc']
+2020-08-03 16:21:53,920:DEBUG:Classifier Successfully trained.
+2020-08-03 16:21:55,546:DEBUG:Accuracy Score: 0.7738980350504514
+2020-08-03 16:21:55,546:DEBUG:While Loop 1 started...
+2020-08-03 16:21:59,142:DEBUG:Menu Choice 6 Selected...
+2020-08-03 16:21:59,142:DEBUG:End of While Loop 1 Reached
+2020-08-03 16:21:59,142:DEBUG:While Loop 1 started...
